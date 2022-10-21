@@ -39,6 +39,8 @@ with 70 hits in the 117 plates treated
 
 The evolution of the process appears on the screen and a file LicenseResults.txt is got 
 
+============================================================================================================================
+
 Previous works that I have developed on this subject, all use the same set of images
 
 https://github.com/ablanco1950/ablanco1950-LicensePlate_FindContours_And_Haarcascade
@@ -56,3 +58,5 @@ https://github.com/ablanco1950/LicensePlateImage_ThresholdFiltered is based on t
 In one of the procedures, it calculates the number plate of the car that has been found the most times varying the threshold level, and assigns it as founded.
 
 It produces an output with the threshold level that a set of images has and implements a procedure to serve as input Y_train in an SVM, the results vary but are not satisfactory, either because as X_train a set is not used that identifies each image or because few images are used
+
+==========================================================================================================================================================
