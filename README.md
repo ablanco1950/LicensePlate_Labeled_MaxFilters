@@ -60,6 +60,8 @@ In one of the procedures, it calculates the number plate of the car that has bee
 It produces an output with the threshold level that a set of images has and implements a procedure to serve as input Y_train in an SVM, the results vary but are not satisfactory, either because as X_train a set is not used that identifies each image or because few images are used
 
 ==========================================================================================================================================================
+
+
 References
 
 https://www.roboflow.com all the images an labels are from roboflow
