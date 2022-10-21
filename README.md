@@ -27,8 +27,14 @@ GetNumberSpanishLicensePlate_labels_MaxFilters.py
 
 That deals only with Spanish license plates with NNNNAAA format, obtaining 17 hits out of 21 records.
 
+The evolution of the process appears on the screen with the detected license plates and as a result a file is obtained: LicenseResults.txt, with the pairs of true license plate and detected license plate.
+
+The verification is possible because the images have been renamed with the names of the license plates of the car in the image, although the verification is only done once the result is obtained
+
 Extending to the case of having to recognize all the formats of the input file, the following would be executed:
 
 GetNumberInternationalLicensePlate_labels_MaxFilters.py
 
 with 70 hits in the 117 plates treated
+
+The evolution of the process appears on the screen and a file LicenseResults.txt is got 
