@@ -38,3 +38,13 @@ GetNumberInternationalLicensePlate_labels_MaxFilters.py
 with 70 hits in the 117 plates treated
 
 The evolution of the process appears on the screen and a file LicenseResults.txt is got 
+
+Previous works that I have developed on this subject, all use the same set of images
+
+https://github.com/ablanco1950/ablanco1950-LicensePlate_FindContours_And_Haarcascade
+
+Instead of using the image labels framing the license plates, try to predict them using findcontours and haarcascade template.
+It uses a set of filters and detects the license plate based on the license plate that has been detected the most times.
+Try to correct the rectangles found by enlarging and reducing them with successive tests, with which the time spent is exaggerated..
+
+Produces for each processed image a code composed of two digits that identify the code used and another that identifies the treatment followed that could serve as a Y_train for a CNN or SVM, but that I have not been able to make operational
