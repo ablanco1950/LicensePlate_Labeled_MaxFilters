@@ -50,3 +50,9 @@ Try to correct the rectangles found by enlarging and reducing them with successi
 Produces for each processed image a code composed of two digits that identify the code used and another that identifies the treatment followed that could serve as a Y_train for a CNN or SVM, but that I have not been able to make operational
 
 https://github.com/ablanco1950/LicensePlate_FindContours same as above, but only use findcontours, less precise
+
+https://github.com/ablanco1950/LicensePlateImage_ThresholdFiltered is based on the fact that any car license plate image has a threshold level with which it is recognized by pytesseract.
+
+In one of the procedures, it calculates the number plate of the car that has been found the most times varying the threshold level, and assigns it as founded.
+
+It produces an output with the threshold level that a set of images has and implements a procedure to serve as input Y_train in an SVM, the results vary but are not satisfactory, either because as X_train a set is not used that identifies each image or because few images are used
