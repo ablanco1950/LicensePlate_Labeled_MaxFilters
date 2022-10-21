@@ -60,3 +60,32 @@ In one of the procedures, it calculates the number plate of the car that has bee
 It produces an output with the threshold level that a set of images has and implements a procedure to serve as input Y_train in an SVM, the results vary but are not satisfactory, either because as X_train a set is not used that identifies each image or because few images are used
 
 ==========================================================================================================================================================
+References
+
+https://www.roboflow.com all the images an labels are from roboflow
+
+https://blog.katastros.com/a?ID=01800-4bf623a1-3917-4d54-9b6a-775331ebaf05
+
+https://gist.github.com/endolith/334196bac1cac45a4893#
+
+https://stackoverflow.com/questions/46084476/radon-transformation-in-python
+
+https://learnopencv.com/otsu-thresholding-with-opencv/
+
+https://towardsdatascience.com/image-enhancement-techniques-using-opencv-and-python-9191d5c30d45
+
+https://stackoverflow.com/questions/64530229/how-do-i-get-tesseract-to-read-the-license-plate-in-the-this-python-opencv-proje
+
+https://stackoverflow.com/questions/21324950/how-can-i-select-the-best-set-of-parameters-in-the-canny-edge-detection-algorith
+
+https://en.wikipedia.org/wiki/Kernel_(image_processing)
+
+https://stackoverflow.com/questions/4993082/how-can-i-sharpen-an-image-in-opencv, answer 66
+
+https://en.wikipedia.org/wiki/Kernel_(image_processing)
+
+https://www.sicara.fr/blog-technique/2019-03-12-edge-detection-in-opencv
+
+https://www.aprendemachinelearning.com/clasacion-de-images-en-python/
+
+
