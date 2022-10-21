@@ -48,3 +48,5 @@ It uses a set of filters and detects the license plate based on the license plat
 Try to correct the rectangles found by enlarging and reducing them with successive tests, with which the time spent is exaggerated..
 
 Produces for each processed image a code composed of two digits that identify the code used and another that identifies the treatment followed that could serve as a Y_train for a CNN or SVM, but that I have not been able to make operational
+
+https://github.com/ablanco1950/LicensePlate_FindContours same as above, but only use findcontours, less precise
