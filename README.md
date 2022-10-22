@@ -81,7 +81,7 @@ It produces an output with the threshold level that a set of images has and impl
 
 References
 
-https://www.roboflow.com all  images an labels  from Roboflow
+https://www.roboflow.com  images an labels  from Roboflow
 
 https://www.kaggle.com/datasets/andrewmvd/car-plate-detection images and labels from Kaggle
 
