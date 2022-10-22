@@ -64,9 +64,14 @@ Instead of using the image labels framing the license plates, try to predict the
 It uses a set of filters and detects the license plate based on the license plate that has been detected the most times.
 Try to correct the rectangles found by enlarging and reducing them with successive tests, with which the time spent is exaggerated..
 
-Produces for each processed image a code composed of two digits that identify the code used and another that identifies the treatment followed that could serve as a Y_train for a CNN or SVM, but that I have not been able to make operational
 
 https://github.com/ablanco1950/LicensePlate_FindContours same as above, but only use findcontours, less precise
+
+https://github.com/ablanco1950/LicensePlate_CLAHE
+
+Use labels and focus in Contrast Limited Adaptive Histogram Equalization (CLAHE) filters.
+
+Produces for each processed image a code composed of two digits that identify the code used and another that identifies the treatment followed that could serve as a Y_train for a CNN or SVM, but that I have not been able to make operational
 
 https://github.com/ablanco1950/LicensePlateImage_ThresholdFiltered is based on the fact that any car license plate image has a threshold level with which it is recognized by pytesseract.
 
