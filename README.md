@@ -11,7 +11,7 @@ numpy
 
 cv2
 
-you
+glo 
 
 re
 
@@ -39,6 +39,20 @@ with 70 hits in the 117 plates treated
 
 The evolution of the process appears on the screen and a file LicenseResults.txt is got 
 
+Is also attached the module:
+
+LicensesKaggleGetNumber_with_labels_and_filters.py
+
+What has happened from the image files to kaggle car license plate notations downloaded from:
+
+https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
+
+(they are downloaded in a folder called Archive.zip that must be unzipped)
+
+Detects the car license plates it interprets from each image and saves the results in the LicensesKaggleResults.txt file.
+
+It is observed that the success rate decreases, which suggests that the filters should be adjusted to this set of Kaggle images. On the other hand, unlike 
+Roboflow files that have been renamed with the car's license plate, it is not possible to automatically detect the accuracy of the results.
 ============================================================================================================================
 
 Previous works that I have developed on this subject, all use the same set of images
@@ -64,7 +78,9 @@ It produces an output with the threshold level that a set of images has and impl
 
 References
 
-https://www.roboflow.com all the images an labels are from roboflow
+https://www.roboflow.com all  images an labels  from Roboflow
+
+https://www.kaggle.com/datasets/andrewmvd/car-plate-detection images and labels from Kaggle
 
 https://blog.katastros.com/a?ID=01800-4bf623a1-3917-4d54-9b6a-775331ebaf05
 
@@ -89,5 +105,13 @@ https://en.wikipedia.org/wiki/Kernel_(image_processing)
 https://www.sicara.fr/blog-technique/2019-03-12-edge-detection-in-opencv
 
 https://www.aprendemachinelearning.com/clasacion-de-images-en-python/
+
+
+https://www.kaggle.com/code/mclikmb4/vehicle-license-plate-detection-vgg16
+
+Format PASCAL VOC of annotations
+https://mlhive.com/2022/02/read-and-write-pascal-voc-xml-annotations-in-python#:~:text=Pascal%20VOC(Visual%20Object%20Classes,and%20train%20Machine%20Learning%20models.
+
+
 
 
