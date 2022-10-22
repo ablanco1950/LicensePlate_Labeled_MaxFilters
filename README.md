@@ -45,7 +45,7 @@ What has happened from the image files to kaggle car license plate notations dow
 
 https://www.kaggle.com/datasets/andrewmvd/car-plate-detection
 
-(they are downloaded in a folder called Archive.zip that must be unzipped)
+(they are downloaded in a folder called archive.zip that must be unzipped)
 
 Detects the car license plates it interprets from each image and saves the results in the LicensesKaggleResults.txt file.
 
