@@ -53,6 +53,9 @@ Detects the car license plates it interprets from each image and saves the resul
 
 It is observed that the success rate decreases, which suggests that the filters should be adjusted to this set of Kaggle images. On the other hand, unlike 
 Roboflow files that have been renamed with the car's license plate, it is not possible to automatically detect the accuracy of the results.
+
+
+
 ============================================================================================================================
 
 Previous works that I have developed on this subject, all use the same set of images
